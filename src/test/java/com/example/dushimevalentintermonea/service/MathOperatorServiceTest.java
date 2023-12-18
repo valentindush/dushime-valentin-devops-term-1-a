@@ -1,6 +1,7 @@
-package com.example.dushimevalentintermonea.serviceImpl;
+package com.example.dushimevalentintermonea.service;
 
 import com.example.dushimevalentintermonea.exceptions.InvalidOperationException;
+import com.example.dushimevalentintermonea.serviceImpl.MathOperatorImpl;
 import com.example.dushimevalentintermonea.services.IMathOperator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
