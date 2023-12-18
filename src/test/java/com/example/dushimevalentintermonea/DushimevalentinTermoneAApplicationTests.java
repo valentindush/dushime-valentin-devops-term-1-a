@@ -32,6 +32,6 @@ public class DushimevalentinTermoneAApplicationTests {
 				.post("/api/v1/do_math")
 				.then()
 				.statusCode(200)
-				.body("calcResponse", equalTo(7.0f));
+				.body("data", equalTo(7.0f));
 	}
 }
